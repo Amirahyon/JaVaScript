@@ -1,0 +1,24 @@
+console.log("Hello World!");
+let name = "Titi";
+console.log(name);
+name = "Abiola";
+console.log(name);
+let age = 57;
+let newage = 13;
+let percentage = newage/age;
+console.log(percentage);
+let myString = 'hi';
+let string="hello again";
+let otherString=`hello`;
+console.log(myString);
+console.log(otherString);
+console.log(string);
+let  num = 0
+console.log(num);
+let bol = true;
+console.log(bol);
+let undefinedvariable;
+console.log(undefinedvariable);
+let emptyvalue = null;
+console.log(emptyvalue);
+console.log(typeof bol);
