@@ -13,7 +13,7 @@ let otherString=`hello`;
 console.log(myString);
 console.log(otherString);
 console.log(string);
-let  num = 0
+let  num = 0;
 console.log(num);
 let bol = true;
 console.log(bol);
@@ -22,3 +22,6 @@ console.log(undefinedvariable);
 let emptyvalue = null;
 console.log(emptyvalue);
 console.log(typeof bol);
+
+const pi = 3.412;
+console.log(pi);
