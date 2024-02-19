@@ -6,14 +6,15 @@
     <title>Document</title>
 </head>
 <body>
+    <input type="text" value="Hello there">
     <div>
         <h1>Enter your details here
             <p>hi</p>
         </h1>
-        <label for="height">Height: <input type="number" class="input" id="height"></label>
-        <label for="weight">Weight: <input type="number" class="input" id="weight"></label>
-        <button type="submit" id="button" onclick="alert('Clicked')">Submit</button>
+        <label for="height">Height: <input type="number" value="" class="input" id="height" required></label>
+        <label for="weight">Weight: <input type="number" value="" class="input" id="weight"></label>
+        <button type="submit" id="button" onclick="alert('Are you sure?')">Submit</button>
     </div>
-    <script type="module" src="main.js"></script> 
+    <script type="module" src="bmi.js"></script> 
 </body>
 </html> 
